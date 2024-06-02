@@ -1,8 +1,8 @@
 {
-  "name": "@wangeditor/editor-for-vue",
+  "name": "@mofangui/editor-for-vue",
   "version": "5.1.12",
   "description": "wangEditor component for vue@next",
-  "author": "liuqh0609 <liuqh0609@163.com>",
+  "author": "skybjf <skybjf@126.com>",
   "homepage": "http://www.wangeditor.com/",
   "main": "./dist/index.js",
   "module": "./dist/index.esm.js",
@@ -35,12 +35,13 @@
     "test": "jest"
   },
   "peerDependencies": {
-    "@wangeditor/editor": ">=5.1.0",
+    "@mofangui/editor": ">=5.1.0",
     "vue": "^3.0.5"
   },
   "dependencies": {},
   "devDependencies": {
     "@babel/preset-env": "^7.15.8",
+    "@mofangui/editor": "^5.1.23",
     "@testing-library/jest-dom": "^5.14.1",
     "@types/jest": "^27.0.2",
     "@types/lodash": "^4.14.172",
